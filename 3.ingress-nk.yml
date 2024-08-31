@@ -4,7 +4,7 @@ metadata:
   namespace: default
   name: votingapp-ingress-nk
   annotations:
-    #kubernetes.io/ingress.class: alb - Deprecated
+    #kubernetes.io/ingress.class: alb - Deprecateds
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: instance
     alb.ingress.kubernetes.io/healthcheck-protocol: HTTP
