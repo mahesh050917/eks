@@ -10,4 +10,9 @@ data:
       username: k8sb30-role
       groups:
       - system:masters
+  mapUsers: |
+    - userarn: arn:aws:iam::440744219836:user/eks-admin
+      username: eks-admin
+      groups:
+      - system: masters
 kind: ConfigMap
