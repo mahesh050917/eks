@@ -2,7 +2,7 @@ pipeline {
    agent any
    environment {
       PROJECT = 'WELCOME TO K8S B30 BATCHS - Jenkins Class'
-      DESTROY = "TRUE"
+      DESTROY = "FALSE"
    }
    stages {
       stage('Check The Kubernetes Access') {
